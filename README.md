@@ -24,6 +24,9 @@ In the repo folder, and see 109 items being collected, and 109 tests passing, in
 
 But if you're seeing all that, congratulations! You're ready to get started.
 
+
+
+
 The recommended approach is to read each example file, then run it directly with pytest, with the `v` flag (so that each Test Case is listed by name) and the `s` flag, so that we can see the raw output from the Tests, which will help explain how each example is working; PyTest normally captures and hides this output, except for tests that are failing. (In the examples below, we'll shorten these arguements to `-vs`.)
 
 Each example test was intended to be self-explanatory, but I have begun adding short tutorial guides to explain more of the context, suggest experiments and hacks you can attempt on th examples, and to provide recaps and reviews for each major section. The tutorial track starts with:
